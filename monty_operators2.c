@@ -5,7 +5,7 @@
  * @head: double head pointer to the stack
  * @counter: line count
  *
- * Return: value at the top of the stack
+ * Return: nothing
  */
 
 void f_pint(stack_t **head, unsigned int counter)
@@ -26,7 +26,7 @@ void f_pint(stack_t **head, unsigned int counter)
  * @head: double head pointer to the stack~
  * @counter: line count
  *
- * Return: the remaining elements of the stack
+ * Return: nothing
  */
 
 void f_pop(stack_t **head, unsigned int counter)
@@ -51,7 +51,7 @@ void f_pop(stack_t **head, unsigned int counter)
  * @head: head of stack
  * @counter: line count
  *
- * Return: the stack
+ * Return: nothing
  */
 
 void f_swap(stack_t **head, unsigned int counter)

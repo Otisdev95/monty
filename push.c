@@ -5,7 +5,7 @@
  * @head: double head pointer to the stack~
  * @counter: line count
  *
- * Return: stack with added node
+ * Return: nothing
  */
 
 void f_push(stack_t **head, unsigned int counter)
