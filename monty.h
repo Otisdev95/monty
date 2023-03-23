@@ -71,7 +71,7 @@ void free_stack(stack_t *head);
 void f_pop(stack_t **head, unsigned int counter);
 void f_swap(stack_t **head, unsigned int counter);
 void f_add(stack_t **head, unsigned int counter);
-void nop(stack_t **head, unsigned int counter);
+void f_ nop(stack_t **head, unsigned int counter);
 void f_sub(stack_t **head, unsigned int counter);
 void f_div(stack_t **head, unsigned int counter);
 void f_mul(stack_t **head, unsigned int counter);
