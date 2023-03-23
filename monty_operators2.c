@@ -1,28 +1,6 @@
 #include "monty.h"
 
 /**
- * f_pall - function that prints everything in the stack
- * @head: double head pointer to the stack~
- * @counter: unused line count
- *
- * Return: the stack
- */
-
-void f_pall(stack_t **head, unsigned int counter)
-{
-	stack_t *h;
-	(void)counter;
-	h = *head;
-	if (h == NULL)
-		return;
-	while (h)
-	{
-		printf("%d\n", h->n);
-		h = h->next;
-	}
-}
-
-/**
  * f_pint - function that prints the value at the top of the stack
  * @head: double head pointer to the stack
  * @counter: line count
@@ -99,18 +77,4 @@ void f_swap(stack_t **head, unsigned int counter)
 	temp = h->n;
 	h->n = h->next->n;
 	h->next->n = temp;
-}
-
-/**
- * f_nop - function that does nothing
- * @head: double head pointer to the stack~
- * @counter: line count
- *
- * Return: nothing
- */
-
-void f_nop(stack_t **head, unsigned int counter)
-{
-	(void) counter;
-	(void) head;
 }
